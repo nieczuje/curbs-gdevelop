@@ -1,0 +1,22 @@
+{
+    "name": "kraw_281_380nik_32betonowy",
+    "displayName": "krawężnik betonowy",
+    "version": "1.0.0",
+    "description": "krawężnik betonowy",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ecosystem:cordova"
+    ],
+    "author": "",
+    "devDependencies": {
+        "cordova-plugin-ionic-webview": "5.0.0"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-ionic-webview": {}
+        }
+    }
+}
