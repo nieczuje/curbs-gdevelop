@@ -1,0 +1,25 @@
+{
+  "name": "krawezniki",
+  "main": "main.js",
+  "productName": "Krawezniki",
+  "description": "Krawezniki",
+  "author": "",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "8.2.5",
+    "electron-builder": "22.9.1"
+  },
+  "build": {
+    "appId": "com.example.gamename",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
