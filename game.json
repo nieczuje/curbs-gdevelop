@@ -567,6 +567,105 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "file": "testSound4_40.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Blip/select 5\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.03,\\\"sustainPunch\\\":0,\\\"decay\\\":0.02,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":2800,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":85,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":40}\",\"name\":\"testSound4_40\"}}",
+        "name": "testSound4_40.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "testSound_40.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Blip/select 5\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.03,\\\"sustainPunch\\\":0,\\\"decay\\\":0.02,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1000,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":85,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":40}\",\"name\":\"testSound_40\"}}",
+        "name": "testSound_40.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "testSound2_40.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Blip/select 5\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.03,\\\"sustainPunch\\\":0,\\\"decay\\\":0.02,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1400,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":85,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":40}\",\"name\":\"testSound2_40\"}}",
+        "name": "testSound2_40.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "testSound3_40.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Blip/select 5\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.03,\\\"sustainPunch\\\":0,\\\"decay\\\":0.02,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1800,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":85,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":40}\",\"name\":\"testSound3_40\"}}",
+        "name": "testSound3_40.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "testSound0_40.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Blip/select 5\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.03,\\\"sustainPunch\\\":0,\\\"decay\\\":0.02,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":200,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":85,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":40}\",\"name\":\"testSound0_40\"}}",
+        "name": "testSound0_40.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "1stPoint.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1stPoint.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "2ndPoint.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2ndPoint.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Win.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Win.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "3rdPoint.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3rdPoint.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Lose.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lose.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Lose_2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lose_2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -686,6 +785,21 @@
         },
         {
           "name": "BallEnd",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "PlaySoundScore",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "PlaySoundButtonStart",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "PlaySoundButtonRestart",
           "type": "string",
           "value": ""
         }
@@ -2125,7 +2239,7 @@
                   "parameters": [
                     "SoundsVolume",
                     "=",
-                    "100"
+                    "20"
                   ],
                   "subInstructions": []
                 },
@@ -2433,6 +2547,17 @@
                     "True"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PlaySoundButtonStart",
+                    "True"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -2467,34 +2592,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SourisSurObjet"
+                        "value": "SceneVariableAsBoolean"
                       },
                       "parameters": [
-                        "StartButton",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MouseButtonReleased"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Visible"
-                      },
-                      "parameters": [
-                        "StartButton"
+                        "PlaySoundButtonStart",
+                        "True"
                       ],
                       "subInstructions": []
                     },
@@ -2528,9 +2630,20 @@
                   },
                   "parameters": [
                     "",
-                    "testSound4_4.wav",
+                    "testSound4_40.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PlaySoundButtonStart",
                     ""
                   ],
                   "subInstructions": []
@@ -3354,6 +3467,17 @@
                     "1"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PlaySoundScore",
+                    "True"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -3388,34 +3512,23 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SceneVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "CornerFirst",
-                        "True"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SceneVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "RoadTouched",
-                        "True"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "VarScene"
                       },
                       "parameters": [
                         "Score",
                         "=",
                         "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "PlaySoundScore",
+                        "True"
                       ],
                       "subInstructions": []
                     },
@@ -3449,9 +3562,20 @@
                   },
                   "parameters": [
                     "",
-                    "testSound_4.wav",
+                    "1stPoint.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PlaySoundScore",
                     ""
                   ],
                   "subInstructions": []
@@ -3471,28 +3595,6 @@
                   },
                   "parameters": [],
                   "subInstructions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SceneVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "CornerFirst",
-                        "True"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SceneVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "RoadTouched",
-                        "True"
-                      ],
-                      "subInstructions": []
-                    },
                     {
                       "type": {
                         "inverted": false,
@@ -3508,6 +3610,17 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "SceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "PlaySoundScore",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
@@ -3535,9 +3648,20 @@
                   },
                   "parameters": [
                     "",
-                    "testSound2_4.wav",
+                    "2ndPoint.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PlaySoundScore",
                     ""
                   ],
                   "subInstructions": []
@@ -3560,34 +3684,23 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SceneVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "CornerFirst",
-                        "True"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SceneVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "RoadTouched",
-                        "True"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "VarScene"
                       },
                       "parameters": [
                         "Score",
                         "=",
                         "3"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "PlaySoundScore",
+                        "True"
                       ],
                       "subInstructions": []
                     },
@@ -3621,9 +3734,20 @@
                   },
                   "parameters": [
                     "",
-                    "testSound3_4.wav",
+                    "3rdPoint.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PlaySoundScore",
                     ""
                   ],
                   "subInstructions": []
@@ -3991,18 +4115,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "PreviousScore",
-                        "!=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
@@ -4030,7 +4142,7 @@
                   },
                   "parameters": [
                     "",
-                    "testSound0_4.wav",
+                    "Lose_2.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
                     ""
@@ -4166,22 +4278,22 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ResetObjectTimer"
+                    "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "Ball",
-                    "\"BallTimer\""
+                    "BallEnd",
+                    "False"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetSceneVariableAsBoolean"
+                    "value": "RemoveObjectTimer"
                   },
                   "parameters": [
-                    "BallEnd",
-                    "False"
+                    "Ball",
+                    "\"BallTimer\""
                   ],
                   "subInstructions": []
                 }
@@ -4611,119 +4723,7 @@
                   },
                   "parameters": [
                     "",
-                    "testSound4_4.wav",
-                    "",
-                    "GlobalVariable(SoundsVolume)",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"AddDelayTimer\"",
-                    ">=",
-                    "GlobalVariable(AddDelay) + 0.2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Sounds",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "testSound4_4.wav",
-                    "",
-                    "GlobalVariable(SoundsVolume)",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"AddDelayTimer\"",
-                    ">=",
-                    "GlobalVariable(AddDelay) + 0.4"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Sounds",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "testSound4_4.wav",
+                    "Win.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
                     ""
@@ -4886,6 +4886,17 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PlaySoundButtonRestart",
+                    "False"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -4991,34 +5002,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SourisSurObjet"
+                        "value": "SceneVariableAsBoolean"
                       },
                       "parameters": [
-                        "ModalEndTextRestartButton",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MouseButtonReleased"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Visible"
-                      },
-                      "parameters": [
-                        "ModalEndTextRestartButton"
+                        "PlaySoundButtonRestart",
+                        "True"
                       ],
                       "subInstructions": []
                     },
@@ -5052,9 +5040,20 @@
                   },
                   "parameters": [
                     "",
-                    "testSound4_4.wav",
+                    "testSound4_40.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PlaySoundButtonRestart",
                     ""
                   ],
                   "subInstructions": []
