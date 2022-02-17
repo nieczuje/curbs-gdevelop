@@ -950,6 +950,71 @@
       "name": "PlaySoundButtonRestart",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "RightPavementPositionX",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 1046
+        },
+        {
+          "type": "number",
+          "value": 1004
+        },
+        {
+          "type": "number",
+          "value": 974
+        },
+        {
+          "type": "number",
+          "value": 1134
+        },
+        {
+          "type": "number",
+          "value": 1015
+        },
+        {
+          "type": "number",
+          "value": 854
+        }
+      ]
+    },
+    {
+      "name": "Restart",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "LeftPavementPositionX",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": -209
+        },
+        {
+          "type": "number",
+          "value": -171
+        },
+        {
+          "type": "number",
+          "value": -141
+        },
+        {
+          "type": "number",
+          "value": -301
+        },
+        {
+          "type": "number",
+          "value": -179
+        },
+        {
+          "type": "number",
+          "value": -11
+        }
+      ]
     }
   ],
   "layouts": [
@@ -996,6 +1061,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "{ DEV MODE OPTIONS",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1006,6 +1086,125 @@
               "parameters": [
                 ""
               ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Sounds",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "SoundsVolume",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "AddDelay",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "PerfectThrow",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "}",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Restart",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ShowModalStart",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -1100,8 +1299,8 @@
                 "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
-                "ShowModalStart",
-                "True"
+                "Restart",
+                ""
               ],
               "subInstructions": []
             }
@@ -1158,7 +1357,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4999999999999991,
+        "zoomFactor": 0.5999999999999992,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1617,8 +1816,8 @@
           "locked": false,
           "name": "RectangleRoadTiled",
           "persistentUuid": "8436d082-5d3c-4fe1-9daa-5ac15fa780af",
-          "width": 839,
-          "x": 216,
+          "width": 1237,
+          "x": 25,
           "y": 544,
           "zOrder": 35,
           "numberProperties": [],
@@ -1633,8 +1832,8 @@
           "locked": false,
           "name": "RectangleRightPavementTiled",
           "persistentUuid": "214be5ec-7034-4c82-8a13-ddc097bdee5b",
-          "width": 264,
-          "x": 1044,
+          "width": 435,
+          "x": 1046,
           "y": 498,
           "zOrder": 36,
           "numberProperties": [],
@@ -1649,8 +1848,8 @@
           "locked": false,
           "name": "RectangleLeftPavementTiled",
           "persistentUuid": "50894dd7-6a50-459d-b7f0-c918f403d818",
-          "width": 227,
-          "x": 1,
+          "width": 435,
+          "x": -209,
           "y": 499,
           "zOrder": 37,
           "numberProperties": [],
@@ -2881,17 +3080,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "DevModeOptions",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
@@ -2932,99 +3120,6 @@
                     "\"0;0;0\""
                   ],
                   "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "{ DEV MODE OPTIONS",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "DevModeOptions",
-                    "True"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Sounds",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "SoundsVolume",
-                    "=",
-                    "100"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "PerfectThrow",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "AddDelay",
-                    "=",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "DevModeOptions",
-                    "False"
-                  ],
-                  "subInstructions": []
                 },
                 {
                   "type": {
@@ -3049,24 +3144,117 @@
                     "220"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "CurrentLevel",
+                    "=",
+                    "ToString(GlobalVariable(ScenesCounter))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "BackgroundStreets",
+                    "=",
+                    "GlobalVariable(LevelsOrder[0]) - 1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "RectangleRightPavementTiled",
+                    "=",
+                    "GlobalVariable(RightPavementPositionX[GlobalVariable(LevelsOrder[0]) - 1])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "RectangleLeftPavementTiled",
+                    "=",
+                    "GlobalVariable(LeftPavementPositionX[GlobalVariable(LevelsOrder[0]) - 1])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "LevelsOrder[0]",
+                    "=",
+                    "GlobalVariable(LevelsOrder[1])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "LevelsOrder[1]",
+                    "=",
+                    "GlobalVariable(LevelsOrder[2])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "LevelsOrder[2]",
+                    "=",
+                    "GlobalVariable(LevelsOrder[3])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "LevelsOrder[3]",
+                    "=",
+                    "GlobalVariable(LevelsOrder[4])"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "LevelsOrder[4]",
+                    "=",
+                    "GlobalVariable(LevelsOrder[5])"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "}",
-              "comment2": ""
             },
             {
               "disabled": false,
@@ -5621,17 +5809,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Random\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -5650,6 +5827,28 @@
                     "TotalScore",
                     "=",
                     "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Random\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Restart",
+                    "True"
                   ],
                   "subInstructions": []
                 }
@@ -5840,6 +6039,17 @@
                   "parameters": [
                     "NextLevel",
                     "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Restart",
+                    ""
                   ],
                   "subInstructions": []
                 },
