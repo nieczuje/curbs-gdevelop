@@ -801,6 +801,69 @@
         "name": "static\\street6.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "audio/Button.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\Button.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/LevelWin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\LevelWin.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/1Point.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\1Point.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/2Point.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\2Point.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/3Point.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\3Point.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/Lose.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\Lose.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/GameWin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\GameWin.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1095,7 +1158,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5799999999999992,
+        "zoomFactor": 0.4999999999999991,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1603,7 +1666,7 @@
           "name": "CurrentLevel",
           "persistentUuid": "d22caf28-de7c-4f9f-9e4b-2b4258bd1307",
           "width": 0,
-          "x": 1176,
+          "x": 1179,
           "y": 13,
           "zOrder": 13,
           "numberProperties": [],
@@ -2936,7 +2999,7 @@
                   },
                   "parameters": [
                     "PerfectThrow",
-                    "False"
+                    "True"
                   ],
                   "subInstructions": []
                 },
@@ -3111,7 +3174,7 @@
                   },
                   "parameters": [
                     "",
-                    "Win.wav",
+                    "audio\\LevelWin.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
                     ""
@@ -3174,7 +3237,7 @@
                   },
                   "parameters": [
                     "",
-                    "testSound4_40.wav",
+                    "audio\\Button.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
                     ""
@@ -3462,7 +3525,7 @@
                   },
                   "parameters": [
                     "",
-                    "testSound4_40.wav",
+                    "audio\\Button.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
                     ""
@@ -4437,7 +4500,7 @@
                   },
                   "parameters": [
                     "",
-                    "1stPoint.wav",
+                    "audio\\1Point.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
                     ""
@@ -4523,7 +4586,7 @@
                   },
                   "parameters": [
                     "",
-                    "2ndPoint.wav",
+                    "audio\\2Point.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
                     ""
@@ -4609,7 +4672,7 @@
                   },
                   "parameters": [
                     "",
-                    "3rdPoint.wav",
+                    "audio\\3Point.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
                     ""
@@ -5020,7 +5083,7 @@
                   },
                   "parameters": [
                     "",
-                    "Lose_2.wav",
+                    "audio\\Lose.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
                     ""
@@ -5713,7 +5776,7 @@
                   },
                   "parameters": [
                     "",
-                    "Win.wav",
+                    "audio\\GameWin.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
                     ""
