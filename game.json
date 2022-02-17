@@ -666,6 +666,51 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\11.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -743,7 +788,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4999999999999998,
+        "zoomFactor": 0.4199999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -811,7 +856,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Staszica",
+          "name": "BackgroundStreet",
           "persistentUuid": "d7a43283-2778-4cb8-ac0f-6288fbdda002",
           "width": 0,
           "x": -91,
@@ -983,25 +1028,9 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 1262,
-          "layer": "",
-          "locked": false,
-          "name": "ModalBackground",
-          "persistentUuid": "c18bbefd-4bee-4525-9dbc-6c68671fba75",
-          "width": 1540,
-          "x": -119,
-          "y": 0,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "ModalStart",
           "locked": false,
           "name": "Instruction",
           "persistentUuid": "e7256137-016c-4ebc-9faf-79d797dbcbc5",
@@ -1017,7 +1046,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "ModalStart",
           "locked": false,
           "name": "StartButton",
           "persistentUuid": "8d8d4f9a-8238-4cd0-91ff-c87e23d8cb15",
@@ -1033,7 +1062,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "ModalEnd",
           "locked": false,
           "name": "YouWin",
           "persistentUuid": "e2e97ab7-e6d0-4aba-be11-50a1ee76a9d5",
@@ -1049,7 +1078,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "ModalEnd",
           "locked": false,
           "name": "TotalScoreText",
           "persistentUuid": "0ecc203b-8609-4a8a-a283-b53e52d212fe",
@@ -1065,7 +1094,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "ModalEnd",
           "locked": false,
           "name": "ModalEndTextThrows",
           "persistentUuid": "64cbd8e3-8239-43bc-be6e-0aaf8ecf4823",
@@ -1081,7 +1110,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "ModalEnd",
           "locked": false,
           "name": "ModalEndTextIn",
           "persistentUuid": "d1e34b46-9bf2-43cb-acde-0ec9afa4514e",
@@ -1097,7 +1126,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "ModalEnd",
           "locked": false,
           "name": "ModalEndTextDeveloped",
           "persistentUuid": "85b588db-49be-4d17-982e-463282980a50",
@@ -1113,7 +1142,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "ModalEnd",
           "locked": false,
           "name": "ModalEndTextRestartButton",
           "persistentUuid": "39279f3d-76c9-4266-84c4-83bd32e22e93",
@@ -1129,7 +1158,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "ModalEnd",
           "locked": false,
           "name": "ModalEndTextExitButton",
           "persistentUuid": "b50f70f1-9cf1-4035-be72-6d648478c0dc",
@@ -1140,11 +1169,43 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ModalStart",
+          "locked": false,
+          "name": "ModalStartBackground",
+          "persistentUuid": "9720bffb-3851-4ec7-80a6-e21cf1004173",
+          "width": 0,
+          "x": -111,
+          "y": -82,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ModalEnd",
+          "locked": false,
+          "name": "ModalEndBackground",
+          "persistentUuid": "cff2e17c-bc78-47ab-9049-f67647f2030a",
+          "width": 0,
+          "x": -125,
+          "y": -66,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
-          "name": "Staszica",
+          "name": "BackgroundStreet",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -1163,6 +1224,151 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "static\\Background2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\9.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1793,7 +1999,7 @@
           ]
         },
         {
-          "name": "ModalBackground",
+          "name": "ModalEndBackground",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2131,6 +2337,46 @@
               ]
             }
           ]
+        },
+        {
+          "name": "ModalStartBackground",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\BackgroundWhiteLong2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -2239,7 +2485,7 @@
                   "parameters": [
                     "SoundsVolume",
                     "=",
-                    "20"
+                    "100"
                   ],
                   "subInstructions": []
                 },
@@ -2274,6 +2520,18 @@
                   "parameters": [
                     "DevModeOptions",
                     "False"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "BackgroundStreet",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -2375,7 +2633,7 @@
                     "value": "Opacity"
                   },
                   "parameters": [
-                    "ModalBackground",
+                    "ModalStartBackground",
                     "=",
                     "220"
                   ],
@@ -2387,7 +2645,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "ModalBackground",
+                    "ModalStartBackground",
                     ""
                   ],
                   "subInstructions": []
@@ -2451,7 +2709,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "ModalBackground"
+                    "ModalStartBackground"
                   ],
                   "subInstructions": []
                 },
@@ -3986,7 +4244,7 @@
                         "Ball",
                         "\"BallTimer\"",
                         ">=",
-                        "\n4"
+                        "3"
                       ],
                       "subInstructions": []
                     }
@@ -4467,10 +4725,22 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ModalEndBackground",
+                    "=",
+                    "220"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "Montre"
                   },
                   "parameters": [
-                    "ModalBackground",
+                    "ModalEndBackground",
                     ""
                   ],
                   "subInstructions": []
@@ -4563,6 +4833,16 @@
                   },
                   "parameters": [
                     "ModalEndTextExitButton"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ModalEndBackground"
                   ],
                   "subInstructions": []
                 }
@@ -5101,6 +5381,28 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": -2147483632,
+          "ambientLightColorG": 6031344,
+          "ambientLightColorR": 8034496,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "ModalStart",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": -2147483632,
+          "ambientLightColorG": 6031344,
+          "ambientLightColorR": 8031712,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "ModalEnd",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
