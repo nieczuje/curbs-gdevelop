@@ -729,11 +729,6 @@
       "value": ""
     },
     {
-      "name": "GameWin",
-      "type": "string",
-      "value": ""
-    },
-    {
       "name": "PerfectThrow",
       "type": "string",
       "value": ""
@@ -762,14 +757,54 @@
       "name": "TotalScore",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "LevelsOrder",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "ScenesCounter",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "PlaySoundButtonRestart",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Staszica",
-      "name": "Staszica",
+      "mangledName": "Random",
+      "name": "Random",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -788,7 +823,189 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4199999999999998,
+        "zoomFactor": 0.94,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "runtimeScene.setBackgroundColor(0,0,0);\n\nvar arr = [1, 2, 3, 4, 5, 6]\n\nfunction shuffle(array) {\n  let currentIndex = array.length,  randomIndex;\n\n  // While there remain elements to shuffle...\n  while (currentIndex != 0) {\n\n    // Pick a remaining element...\n    randomIndex = Math.floor(Math.random() * currentIndex);\n    currentIndex--;\n\n    // And swap it with the current element.\n    [array[currentIndex], array[randomIndex]] = [\n      array[randomIndex], array[currentIndex]];\n  }\n\n  return array;\n}\n\nvar random = shuffle(arr);\n\nvar randPos1 = runtimeScene.getVariables().get(\"RandPos1\");\nvar randPos2 = runtimeScene.getVariables().get(\"RandPos2\");\nvar randPos3 = runtimeScene.getVariables().get(\"RandPos3\");\nvar randPos4 = runtimeScene.getVariables().get(\"RandPos4\");\nvar randPos5 = runtimeScene.getVariables().get(\"RandPos5\");\nvar randPos6 = runtimeScene.getVariables().get(\"RandPos6\");\n\nrandPos1.setNumber(random[0])\nrandPos2.setNumber(random[1])\nrandPos3.setNumber(random[2])\nrandPos4.setNumber(random[3])\nrandPos5.setNumber(random[4])\nrandPos6.setNumber(random[5])\n",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelsOrder[0]",
+                "=",
+                "Variable(RandPos1)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelsOrder[1]",
+                "=",
+                "Variable(RandPos2)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelsOrder[2]",
+                "=",
+                "Variable(RandPos3)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelsOrder[3]",
+                "=",
+                "Variable(RandPos4)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelsOrder[4]",
+                "=",
+                "Variable(RandPos5)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelsOrder[5]",
+                "=",
+                "Variable(RandPos6)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene \" + ToString(1)",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "ShowModalStart",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 1,
+          "ambientLightColorG": 134217728,
+          "ambientLightColorR": 1597066561,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": false,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Scene_321",
+      "name": "Scene 1",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3599999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -844,7 +1061,12 @@
           "value": ""
         },
         {
-          "name": "PlaySoundButtonRestart",
+          "name": "NextLevel",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "GameWin",
           "type": "string",
           "value": ""
         }
@@ -1099,7 +1321,7 @@
           "name": "ModalEndTextThrows",
           "persistentUuid": "64cbd8e3-8239-43bc-be6e-0aaf8ecf4823",
           "width": 0,
-          "x": 700,
+          "x": 702,
           "y": 324,
           "zOrder": 20,
           "numberProperties": [],
@@ -2411,11 +2633,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetGlobalVariableAsBoolean"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "GameWin",
-                    ""
+                    "ScenesCounter",
+                    "+",
+                    "1"
                   ],
                   "subInstructions": []
                 },
@@ -2426,6 +2649,39 @@
                   },
                   "parameters": [
                     "DevModeOptions",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GameWin",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "NextLevel",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SwipeActive",
                     "True"
                   ],
                   "subInstructions": []
@@ -2496,7 +2752,7 @@
                   },
                   "parameters": [
                     "PerfectThrow",
-                    "False"
+                    "True"
                   ],
                   "subInstructions": []
                 },
@@ -2552,6 +2808,211 @@
               },
               "comment": "}",
               "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "{ DEV MODE: Sounds",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "ScenesCounter",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "ScenesCounter",
+                        "=",
+                        "3"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "ScenesCounter",
+                        "=",
+                        "4"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "ScenesCounter",
+                        "=",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "ScenesCounter",
+                        "=",
+                        "6"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Win.wav",
+                    "",
+                    "GlobalVariable(SoundsVolume)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "PlaySoundButtonRestart",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Sounds",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "testSound4_40.wav",
+                    "",
+                    "GlobalVariable(SoundsVolume)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PlaySoundButtonRestart",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "}",
+              "comment2": ""
             }
           ],
           "parameters": []
@@ -2575,37 +3036,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "ShowModalStart",
-                    "True"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
@@ -2619,11 +3049,22 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Montre"
+                    "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "Instruction",
+                    "SwipeActive",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ModalStart\""
                   ],
                   "subInstructions": []
                 },
@@ -2638,39 +3079,6 @@
                     "220"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ModalStartBackground",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "StartButton",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetSceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "SwipeActive",
-                    ""
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -2696,30 +3104,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Cache"
+                    "value": "HideLayer"
                   },
                   "parameters": [
-                    "Instruction"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "ModalStartBackground"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "StartButton"
+                    "",
+                    "\"ModalStart\""
                   ],
                   "subInstructions": []
                 }
@@ -2765,10 +3154,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "Visible"
+                        "value": "LayerVisible"
                       },
                       "parameters": [
-                        "StartButton"
+                        "",
+                        "\"ModalStart\""
                       ],
                       "subInstructions": []
                     }
@@ -2987,6 +3377,38 @@
                       "subInstructions": []
                     }
                   ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Test",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PerfectThrow",
+                    "True"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -3338,6 +3760,17 @@
                       "parameters": [
                         "SwipeActive",
                         "True"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Test",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -4188,7 +4621,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetGlobalVariableAsBoolean"
+                    "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
                     "GameWin",
@@ -4361,6 +4794,17 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "SceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "GameWin",
+                        "False"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "VarScene"
                       },
                       "parameters": [
@@ -4382,14 +4826,6 @@
                       "subInstructions": []
                     }
                   ]
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -4451,7 +4887,7 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "GlobalVariableAsBoolean"
+                        "value": "SceneVariableAsBoolean"
                       },
                       "parameters": [
                         "GameWin",
@@ -4557,51 +4993,6 @@
                 }
               ],
               "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "Modal End",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "ShowModalEnd",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
             },
             {
               "disabled": false,
@@ -4611,253 +5002,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "ShowModalEnd",
-                    "True"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "YouWin",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ModalEndTextIn",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "TotalScoreText",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "TotalScoreText",
-                    "=",
-                    "GlobalVariableString(TotalScore)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreX"
-                  },
-                  "parameters": [
-                    "TotalScoreText",
-                    "=",
-                    "(1280/2)-(TotalScoreText.Width()/2)-8"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ModalEndTextThrows",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ModalEndTextDeveloped",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ModalEndTextRestartButton",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ModalEndTextExitButton",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "ModalEndBackground",
-                    "=",
-                    "220"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ModalEndBackground",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "ShowModalEnd",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "YouWin"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "ModalEndTextIn"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "TotalScoreText"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "ModalEndTextThrows"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "ModalEndTextDeveloped"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "ModalEndTextRestartButton"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "ModalEndTextExitButton"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "ModalEndBackground"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GlobalVariableAsBoolean"
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "GameWin",
@@ -4931,32 +5076,31 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetGlobalVariableAsBoolean"
+                    "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "ShowModalEnd",
+                    "NextLevel",
                     "True"
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "{ DEV MODE: Sounds",
-              "comment2": ""
-            },
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Modal End",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "disabled": false,
               "folded": false,
@@ -4965,33 +5109,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "CompareTimer"
+                    "value": "DepartScene"
                   },
                   "parameters": [
-                    "",
-                    "\"AddDelayTimer\"",
-                    ">=",
-                    "GlobalVariable(AddDelay)"
+                    ""
                   ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Sounds",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -4999,13 +5121,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
+                    "value": "SetGlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "",
-                    "Win.wav",
-                    "",
-                    "GlobalVariable(SoundsVolume)",
+                    "ShowModalEnd",
                     ""
                   ],
                   "subInstructions": []
@@ -5016,17 +5135,102 @@
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "}",
-              "comment2": ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "ShowModalEnd",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TotalScoreText",
+                    "=",
+                    "GlobalVariableString(TotalScore)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "TotalScoreText",
+                    "=",
+                    "(1280/2)-(TotalScoreText.Width()/2)-8"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ModalEndBackground",
+                    "=",
+                    "220"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ModalEnd\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "ShowModalEnd",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ModalEnd\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
               "disabled": false,
@@ -5067,10 +5271,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "Visible"
+                        "value": "LayerVisible"
                       },
                       "parameters": [
-                        "ModalEndTextRestartButton"
+                        "",
+                        "\"ModalEnd\""
                       ],
                       "subInstructions": []
                     }
@@ -5089,7 +5294,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetGlobalVariableAsBoolean"
+                    "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
                     "GameWin",
@@ -5170,11 +5375,46 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetSceneVariableAsBoolean"
+                    "value": "SetGlobalVariableAsBoolean"
                   },
                   "parameters": [
                     "PlaySoundButtonRestart",
-                    "False"
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Random\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "ScenesCounter",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "TotalScore",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -5220,10 +5460,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "Visible"
+                        "value": "LayerVisible"
                       },
                       "parameters": [
-                        "ModalEndTextExitButton"
+                        "",
+                        "\"ModalEnd\""
                       ],
                       "subInstructions": []
                     }
@@ -5275,33 +5516,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "BuiltinCommonInstructions::And"
+                    "value": "GlobalVariableAsBoolean"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SceneVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "PlaySoundButtonRestart",
-                        "True"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Sounds",
-                        "True"
-                      ],
-                      "subInstructions": []
-                    }
-                  ]
+                  "parameters": [
+                    "ShowModalEnd",
+                    "True"
+                  ],
+                  "subInstructions": []
                 },
                 {
                   "type": {
@@ -5320,20 +5541,9 @@
                   },
                   "parameters": [
                     "",
-                    "testSound4_40.wav",
+                    "Win.wav",
                     "",
                     "GlobalVariable(SoundsVolume)",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetSceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "PlaySoundButtonRestart",
                     ""
                   ],
                   "subInstructions": []
@@ -5355,6 +5565,124 @@
               },
               "comment": "}",
               "comment2": ""
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Next Level",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "ScenesCounter",
+                    "<",
+                    "6"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "NextLevel",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Scene \" + ToString(1)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "ScenesCounter",
+                    "=",
+                    "6"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "NextLevel",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "ShowModalEnd",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
