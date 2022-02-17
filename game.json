@@ -711,6 +711,96 @@
         "name": "static\\11.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "WhiteBox-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhiteBox-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/xxxy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\xxxy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "GrayBox-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GrayBox-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "GrayBox-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GrayBox-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/street1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\street1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/street2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\street2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/street3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\street3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/street4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\street4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/street5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\street5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "static/street6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static\\street6.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1005,7 +1095,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3599999999999997,
+        "zoomFactor": 0.5799999999999992,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1078,22 +1168,6 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "BackgroundStreet",
-          "persistentUuid": "d7a43283-2778-4cb8-ac0f-6288fbdda002",
-          "width": 0,
-          "x": -91,
-          "y": -146,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "Ball",
           "persistentUuid": "f6e1f465-ab70-48b1-a9ec-14a8a3fe97d7",
           "width": 0,
@@ -1116,54 +1190,6 @@
           "x": 57,
           "y": 343,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "RectangleRoad",
-          "persistentUuid": "cba04926-3d8a-40fa-b848-50119ea9f647",
-          "width": 0,
-          "x": -165,
-          "y": 544,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "RectangleRightPavement",
-          "persistentUuid": "c583f13a-2133-4d60-b133-62863a802d0f",
-          "width": 0,
-          "x": 1032,
-          "y": 498,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "RectangleLeftPavement",
-          "persistentUuid": "cda4ad86-44a4-4cc7-9131-6fa579ffc697",
-          "width": 0,
-          "x": -1384,
-          "y": 499,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1206,60 +1232,12 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "BlackDown",
-          "persistentUuid": "316a212a-e6fb-40cd-9e6c-e3486677ab62",
-          "width": 0,
-          "x": -150,
-          "y": 577,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Level",
-          "persistentUuid": "252020a8-e157-4dd9-84b0-e2dd7c75e89f",
-          "width": 0,
-          "x": 1029,
-          "y": 5,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "Score1",
           "persistentUuid": "4d88d9f6-12d0-4cb5-a6e9-967d8c1f4f7e",
           "width": 0,
           "x": 8,
           "y": 1,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "ModalStart",
-          "locked": false,
-          "name": "Instruction",
-          "persistentUuid": "e7256137-016c-4ebc-9faf-79d797dbcbc5",
-          "width": 0,
-          "x": 342,
-          "y": 49,
-          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1350,22 +1328,6 @@
           "height": 0,
           "layer": "ModalEnd",
           "locked": false,
-          "name": "ModalEndTextDeveloped",
-          "persistentUuid": "85b588db-49be-4d17-982e-463282980a50",
-          "width": 0,
-          "x": 485,
-          "y": 391,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "ModalEnd",
-          "locked": false,
           "name": "ModalEndTextRestartButton",
           "persistentUuid": "39279f3d-76c9-4266-84c4-83bd32e22e93",
           "width": 0,
@@ -1394,16 +1356,144 @@
         },
         {
           "angle": 0,
+          "customSize": true,
+          "height": 1046,
+          "layer": "ModalStart",
+          "locked": false,
+          "name": "ModalStartWhite",
+          "persistentUuid": "75f828ac-2c27-4063-8b01-f45660ea491f",
+          "width": 1300,
+          "x": -7,
+          "y": -5,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1042,
+          "layer": "ModalEnd",
+          "locked": false,
+          "name": "ModalEndWhite",
+          "persistentUuid": "346842fd-89ec-46a2-b1ab-f99da86fd0a9",
+          "width": 1292,
+          "x": -6,
+          "y": -6,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "ModalStart",
           "locked": false,
-          "name": "ModalStartBackground",
-          "persistentUuid": "9720bffb-3851-4ec7-80a6-e21cf1004173",
+          "name": "Instruction1",
+          "persistentUuid": "55868132-1d98-45b6-9a2d-b9e914893dc0",
           "width": 0,
-          "x": -111,
-          "y": -82,
-          "zOrder": 16,
+          "x": 342,
+          "y": 37,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ModalStart",
+          "locked": false,
+          "name": "Instruction2",
+          "persistentUuid": "bc33efbf-7133-484e-8421-04e508f16130",
+          "width": 0,
+          "x": 342,
+          "y": 109,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ModalStart",
+          "locked": false,
+          "name": "Instruction3",
+          "persistentUuid": "f864d992-b1ac-4ce8-99a4-9679c23e3059",
+          "width": 0,
+          "x": 342,
+          "y": 181,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ModalStart",
+          "locked": false,
+          "name": "Instruction4",
+          "persistentUuid": "65fbd82d-f67d-4957-9a37-b4c4c3429250",
+          "width": 0,
+          "x": 342,
+          "y": 253,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ModalStart",
+          "locked": false,
+          "name": "Instruction5",
+          "persistentUuid": "b1c55782-35bb-4825-9f5b-522d6b50a1ff",
+          "width": 0,
+          "x": 342,
+          "y": 325,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ModalStart",
+          "locked": false,
+          "name": "InstructionLevel",
+          "persistentUuid": "66b4d19f-1820-46c4-8227-87778108fdcc",
+          "width": 0,
+          "x": 788,
+          "y": 325,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ModalStart",
+          "locked": false,
+          "name": "InstructionXXXY",
+          "persistentUuid": "f644ddd3-da5e-424b-8de3-c649ea1b8f31",
+          "width": 0,
+          "x": 839,
+          "y": 52,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1414,203 +1504,146 @@
           "height": 0,
           "layer": "ModalEnd",
           "locked": false,
-          "name": "ModalEndBackground",
-          "persistentUuid": "cff2e17c-bc78-47ab-9049-f67647f2030a",
+          "name": "ModalEndTextDeveloped1",
+          "persistentUuid": "cc8af8ff-4e56-49e7-a05a-f67bbfa827b9",
           "width": 0,
-          "x": -125,
-          "y": -66,
-          "zOrder": 18,
+          "x": 562,
+          "y": 403,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ModalEnd",
+          "locked": false,
+          "name": "ModalEndTextDeveloped2",
+          "persistentUuid": "d3d7329e-fb5f-4966-8fa9-909ed198eb4b",
+          "width": 0,
+          "x": 514,
+          "y": 437,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ModalEnd",
+          "locked": false,
+          "name": "ModalEndTextDeveloped3",
+          "persistentUuid": "678f4a6c-8a4b-491c-9dd9-68a20f3cf671",
+          "width": 0,
+          "x": 499,
+          "y": 499,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "RectangleRoadTiled",
+          "persistentUuid": "8436d082-5d3c-4fe1-9daa-5ac15fa780af",
+          "width": 839,
+          "x": 216,
+          "y": 544,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 54,
+          "layer": "",
+          "locked": false,
+          "name": "RectangleRightPavementTiled",
+          "persistentUuid": "214be5ec-7034-4c82-8a13-ddc097bdee5b",
+          "width": 264,
+          "x": 1044,
+          "y": 498,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 52,
+          "layer": "",
+          "locked": false,
+          "name": "RectangleLeftPavementTiled",
+          "persistentUuid": "50894dd7-6a50-459d-b7f0-c918f403d818",
+          "width": 227,
+          "x": 1,
+          "y": 499,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "CurrentLevel",
+          "persistentUuid": "d22caf28-de7c-4f9f-9e4b-2b4258bd1307",
+          "width": 0,
+          "x": 1176,
+          "y": 13,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Level",
+          "persistentUuid": "97f6cd7c-df8e-412d-8549-fff04fa8aee3",
+          "width": 0,
+          "x": 1030,
+          "y": 13,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BackgroundStreets",
+          "persistentUuid": "bb89cc1c-799b-4dfa-bed7-3f2e6b8c4e6d",
+          "width": 0,
+          "x": -14,
+          "y": -13,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "name": "BackgroundStreet",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\Background2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "name": "Ball",
           "tags": "",
@@ -1721,198 +1754,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "static\\Arrow 2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "RectangleRoad",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Physics2",
-              "type": "Physics2::Physics2Behavior",
-              "bodyType": "Static",
-              "bullet": false,
-              "fixedRotation": false,
-              "canSleep": true,
-              "shape": "Box",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "polygonOrigin": "Center",
-              "vertices": [],
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
-              "layers": 1,
-              "masks": 1
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\Rectangle 2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "RectangleRightPavement",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Physics2",
-              "type": "Physics2::Physics2Behavior",
-              "bodyType": "Static",
-              "bullet": false,
-              "fixedRotation": false,
-              "canSleep": true,
-              "shape": "Box",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "polygonOrigin": "Center",
-              "vertices": [],
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
-              "layers": 1,
-              "masks": 1
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\Rectangle 2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "RectangleLeftPavement",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Physics2",
-              "type": "Physics2::Physics2Behavior",
-              "bodyType": "Static",
-              "bullet": false,
-              "fixedRotation": false,
-              "canSleep": true,
-              "shape": "Box",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "polygonOrigin": "Center",
-              "vertices": [],
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
-              "layers": 1,
-              "masks": 1
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\Rectangle 2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2141,166 +1982,6 @@
           ]
         },
         {
-          "name": "BlackDown",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\black.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Level",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\MAIN.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "ModalEndBackground",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\BackgroundWhiteLong2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Instruction",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\Info2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "StartButton",
           "tags": "",
           "type": "Sprite",
@@ -2441,46 +2122,6 @@
           }
         },
         {
-          "name": "ModalEndTextDeveloped",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "static\\Developed.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "ModalEndTextRestartButton",
           "tags": "",
           "type": "Sprite",
@@ -2561,7 +2202,149 @@
           ]
         },
         {
-          "name": "ModalStartBackground",
+          "height": 32,
+          "name": "ModalStartWhite",
+          "tags": "",
+          "texture": "WhiteBox-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "ModalEndWhite",
+          "tags": "",
+          "texture": "WhiteBox-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Instruction1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "NO CURB",
+          "font": "Luckiest_Guy\\LuckiestGuy-Regular.ttf",
+          "characterSize": 48,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Instruction2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ROAD -> CURB",
+          "font": "Luckiest_Guy\\LuckiestGuy-Regular.ttf",
+          "characterSize": 48,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Instruction3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "CURB -> PAVEMENT",
+          "font": "Luckiest_Guy\\LuckiestGuy-Regular.ttf",
+          "characterSize": 48,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Instruction4",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "CURB -> road",
+          "font": "Luckiest_Guy\\LuckiestGuy-Regular.ttf",
+          "characterSize": 48,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Instruction5",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "3 IN A ROW",
+          "font": "Luckiest_Guy\\LuckiestGuy-Regular.ttf",
+          "characterSize": 48,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "InstructionLevel",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Level+",
+          "font": "Luckiest_Guy\\LuckiestGuy-Regular.ttf",
+          "characterSize": 48,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "InstructionXXXY",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2579,7 +2362,397 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "static\\BackgroundWhiteLong2.png",
+                      "image": "static\\xxxy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "ModalEndTextDeveloped1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "DEVELOPED BY:",
+          "font": "Luckiest_Guy\\LuckiestGuy-Regular.ttf",
+          "characterSize": 24,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "ModalEndTextDeveloped2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "             47studio.pl\nTomasz Gierałtowski",
+          "font": "Luckiest_Guy\\LuckiestGuy-Regular.ttf",
+          "characterSize": 24,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "ModalEndTextDeveloped3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Przemysław Sankowski",
+          "font": "Luckiest_Guy\\LuckiestGuy-Regular.ttf",
+          "characterSize": 24,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "height": 32,
+          "name": "RectangleRoadTiled",
+          "tags": "",
+          "texture": "GrayBox-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "RectangleRightPavementTiled",
+          "tags": "",
+          "texture": "GrayBox-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "RectangleLeftPavementTiled",
+          "tags": "",
+          "texture": "GrayBox-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "CurrentLevel",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "1",
+          "font": "Luckiest_Guy\\LuckiestGuy-Regular.ttf",
+          "characterSize": 48,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Level",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Level     /6",
+          "font": "Luckiest_Guy\\LuckiestGuy-Regular.ttf",
+          "characterSize": 48,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "BackgroundStreets",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\street1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\street2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\street3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\street4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\street5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "static\\street6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2685,6 +2858,17 @@
                     "True"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SceneBackground"
+                  },
+                  "parameters": [
+                    "",
+                    "\"0;0;0\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -2752,7 +2936,7 @@
                   },
                   "parameters": [
                     "PerfectThrow",
-                    "True"
+                    "False"
                   ],
                   "subInstructions": []
                 },
@@ -2782,12 +2966,24 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeAnimation"
+                    "value": "TiledSpriteObject::SetOpacity"
                   },
                   "parameters": [
-                    "BackgroundStreet",
+                    "ModalStartWhite",
                     "=",
-                    "0"
+                    "220"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "ModalEndWhite",
+                    "=",
+                    "220"
                   ],
                   "subInstructions": []
                 }
@@ -3065,18 +3261,6 @@
                   "parameters": [
                     "",
                     "\"ModalStart\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "ModalStartBackground",
-                    "=",
-                    "220"
                   ],
                   "subInstructions": []
                 }
@@ -3478,7 +3662,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "RectangleRoad"
+                    "RectangleRoadTiled"
                   ],
                   "subInstructions": []
                 },
@@ -3488,7 +3672,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "RectangleRightPavement"
+                    "RectangleRightPavementTiled"
                   ],
                   "subInstructions": []
                 },
@@ -3498,7 +3682,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "RectangleLeftPavement"
+                    "RectangleLeftPavementTiled"
                   ],
                   "subInstructions": []
                 },
@@ -3887,7 +4071,7 @@
                   "parameters": [
                     "Ball",
                     "Physics2",
-                    "RectangleRoad",
+                    "RectangleRoadTiled",
                     ""
                   ],
                   "subInstructions": []
@@ -3937,7 +4121,7 @@
                       "parameters": [
                         "Ball",
                         "Physics2",
-                        "RectangleRightPavement",
+                        "RectangleRightPavementTiled",
                         ""
                       ],
                       "subInstructions": []
@@ -3999,7 +4183,7 @@
                       "parameters": [
                         "Ball",
                         "Physics2",
-                        "RectangleRoad",
+                        "RectangleRoadTiled",
                         ""
                       ],
                       "subInstructions": []
@@ -5177,18 +5361,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "ModalEndBackground",
-                    "=",
-                    "220"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ShowLayer"
                   },
                   "parameters": [
@@ -5718,7 +5890,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "ModalStart",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -5729,7 +5901,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "ModalEnd",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
