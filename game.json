@@ -1357,7 +1357,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5999999999999992,
+        "zoomFactor": 0.43999999999999906,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6070,7 +6070,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Scene \" + ToString(1)"
+                    "\"Scene 1\""
                   ],
                   "subInstructions": []
                 }
