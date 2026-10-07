@@ -1,4 +1,9 @@
+<div align="center">
+<img src="static/icon512b.png" width="150">
+
 # Curbs (Krawężniki)
+
+</div>
 
 ![Handwritten](https://img.shields.io/badge/provenance-handwritten-brightgreen)
 
