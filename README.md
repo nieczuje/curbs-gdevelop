@@ -7,6 +7,8 @@
 
 ![Handwritten](https://img.shields.io/badge/provenance-handwritten-brightgreen)
 
+*2022: git history reconstructed from original file timestamps*
+
 A mobile game based on "krawężniki" — a real street game played by bouncing a ball off a curb. Hit the curb across the street, catch the rebound, and do it 3 times in a row to advance. 6 levels, randomized order, free, no ads.
 
 > Co-developed with [Ravenyy](https://github.com/Ravenyy). Built in GDevelop and published to Google Play in February 2022 (the listing is no longer live). A full rewrite in Godot followed as a separate learning project — see [curbs-godot](https://github.com/nieczuje/curbs-godot).
