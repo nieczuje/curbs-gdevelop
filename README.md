@@ -17,7 +17,7 @@ A mobile minigame based on "krawężniki" — a real street game played by bounc
 
 | Rules | Gameplay (Level 6/6) |
 |---|---|
-| [<img src="screens/phone/1.png" width="400">](screens/phone/1.png) | [<img src="screens/phone/3.png" width="400">](screens/phone/3.png) |
+| [<img src="screenshots/phone/rules.png" width="400">](screenshots/phone/rules.png) | [<img src="screenshots/phone/gameplay-2.png" width="400">](screenshots/phone/gameplay-2.png) |
 
 *(gameplay video to be added)*
 
