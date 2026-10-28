@@ -1,5 +1,5 @@
 <div align="center">
-<img src="static/icon512b.png" width="150">
+<img src="readme-images/logo.png" width="150">
 
 # Curbs (Krawężniki)
 
