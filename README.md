@@ -19,7 +19,13 @@ A mobile minigame based on "krawężniki" — a real street game played by bounc
 |---|---|
 | [<img src="screenshots/mobile/rules.png" width="400">](screenshots/mobile/rules.png) | [<img src="screenshots/mobile/gameplay-2.png" width="400">](screenshots/mobile/gameplay-2.png) |
 
-*(gameplay video to be added)*
+| [![YouTube](https://img.shields.io/badge/YouTube-Watch_gameplay-red?logo=youtube)](https://youtu.be/4FehC5Bf7Kg) |
+|---|
+| [<img src="https://img.youtube.com/vi/4FehC5Bf7Kg/maxresdefault.jpg" width="500">](https://youtu.be/4FehC5Bf7Kg) |
+
+## Tech
+
+GDevelop 5 (inferred), built from events with one JavaScript block for the level shuffle. The ball uses the Physics2 behavior, and throws are read with the Swipe Detector extension.
 
 ## Structure
 
@@ -41,11 +47,7 @@ Luckiest_Guy/           Game font and its license
 
 **Android:** Download `game31.apk` from `builds/` and install it on your phone.
 
-**Desktop:** Requires GDevelop 5 (inferred). Open `game.json` in GDevelop and press Preview. Swipe with the mouse.
-
-## Tech
-
-GDevelop, built from events with one JavaScript block for the level shuffle. The ball uses the Physics2 behavior, and throws are read with the Swipe Detector extension.
+**Desktop:** Requires GDevelop. Open `game.json` in GDevelop and press Preview. Swipe with the mouse.
 
 ## Development history
 
@@ -56,13 +58,15 @@ This repo's git history is reconstructed from the real timestamps of the origina
 - Game font: [Luckiest Guy](https://fonts.google.com/specimen/Luckiest+Guy), Apache License 2.0. The license notice is kept in `Luckiest_Guy/LICENSE.txt`.
 - Swipe detection for the throw: [Swipe Detector](https://forum.gdevelop.io/t/extension-swipe-detector/29005), a GDevelop extension by e1e5en.
 - [Bounce (using forces)](https://wiki.gdevelop.io/gdevelop5/extensions/bounce/), a GDevelop extension by 4ian. It is included in the project, but no event uses it.
-<!-- TODO: add licenses of Swipe Detector and Bounce -->
+<!-- TODO: credit licenses of Swipe Detector and Bounce -->
 <!-- TODO: credit sounds -->
 <!-- TODO: credit asset-store images in assets/ and experiments/randomized_levels/ -->
 
 ## License
 
 MIT License — see [LICENSE](LICENSE).
+
+Third-party material excluded — see [Credits](#credits).
 
 <div align="right">
 
